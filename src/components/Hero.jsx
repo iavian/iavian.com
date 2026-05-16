@@ -25,14 +25,8 @@ export default function Hero() {
 
         <div className="mt-10 flex flex-wrap items-center gap-4">
           <a
-            href="#apps"
-            className="rounded-full bg-white px-6 py-3 text-sm font-semibold text-slate-900 transition hover:bg-slate-200"
-          >
-            View the apps
-          </a>
-          <a
             href="mailto:apps@iavian.com"
-            className="rounded-full border border-white/20 px-6 py-3 text-sm font-semibold text-white transition hover:bg-white/10"
+            className="rounded-full bg-white px-6 py-3 text-sm font-semibold text-slate-900 transition hover:bg-slate-200"
           >
             apps@iavian.com
           </a>

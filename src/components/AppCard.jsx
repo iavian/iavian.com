@@ -15,6 +15,7 @@ function CheckIcon() {
   )
 }
 
+
 function LinkPill({ href, label }) {
   return (
     <a
@@ -48,8 +49,16 @@ export default function AppCard({ app }) {
           {app.badge}
         </span>
         <div
-          className={`h-10 w-10 rounded-2xl bg-gradient-to-br ${app.accent} opacity-90 shadow-lg`}
-        />
+          className={`relative h-12 w-12 overflow-hidden rounded-2xl bg-gradient-to-br ${app.accent} p-px shadow-lg`}
+        >
+          <img
+            src={app.icon}
+            alt={`${app.name} icon`}
+            className="h-full w-full rounded-2xl object-cover"
+            loading="lazy"
+            decoding="async"
+          />
+        </div>
       </div>
 
       <h3 className="mt-8 text-2xl font-semibold text-white">

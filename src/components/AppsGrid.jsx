@@ -3,7 +3,7 @@ import AppCard from './AppCard'
 
 export default function AppsGrid() {
   return (
-    <section id="apps" className="mx-auto max-w-6xl px-6 py-20 sm:py-28">
+    <section id="apps" className="mx-auto max-w-6xl px-6 pt-16 pb-20 sm:pt-20 sm:pb-28">
       <div className="flex flex-col items-start justify-between gap-4 sm:flex-row sm:items-end">
         <div>
           <p className="text-sm font-medium uppercase tracking-[0.2em] text-indigo-300">

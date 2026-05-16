@@ -2,6 +2,7 @@ export const apps = [
   {
     id: 'breaking-news',
     name: 'Breaking News',
+    icon: '/icons/breaking-news.jpg',
     tagline: 'As it happens.',
     description:
       'Real-time global news, sports, finance and entertainment from CNN, Fox News, Reuters, NYT, CNBC and more. Pick your sources, get push alerts the moment a story breaks, and listen to hourly newscasts from NPR, BBC and ESPN. iPhone, iPad and Apple Watch — no account required.',
@@ -24,6 +25,7 @@ export const apps = [
   {
     id: 'the-report',
     name: 'Conservative News — The Report',
+    icon: '/icons/the-report.jpg',
     tagline: 'Your source for conservative news.',
     description:
       'A focused daily feed of conservative news, opinion and editorials. Comprehensive coverage of politics, national security, business and traditional values, with breaking-news alerts, bookmarks, Spotlight search and an iOS Lock Screen widget.',
@@ -46,6 +48,7 @@ export const apps = [
   {
     id: 'pdf-table-convert',
     name: 'PDF Table Convert',
+    icon: '/icons/pdf-table-convert.png',
     tagline: 'Secure, offline & privacy-first.',
     description:
       'Convert tables locked inside PDFs into clean Excel and CSV files. Everything happens on your device — files never leave your machine, so sensitive documents stay private.',
