@@ -3,7 +3,132 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Iavian</title>
+
+    <title>iavian — Small, useful apps built to respect your time</title>
+    <meta
+      name="description"
+      content="Small, focused apps for news and productivity: Breaking News, The Report and PDF Table Convert. No accounts, no tracking — tools that do one thing well."
+    />
+    <link rel="canonical" href="https://iavian.com/" />
+    <meta name="author" content="iavian" />
+    <meta name="robots" content="index, follow, max-image-preview:large" />
+    <meta name="theme-color" content="#020617" />
+    <meta name="color-scheme" content="dark" />
+
+    <!-- Icons -->
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="icon" href="/favicon-32.png" sizes="32x32" type="image/png" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="iavian" />
+    <meta property="og:url" content="https://iavian.com/" />
+    <meta
+      property="og:title"
+      content="iavian — Small, useful apps built to respect your time"
+    />
+    <meta
+      property="og:description"
+      content="Small, focused apps for news and productivity: Breaking News, The Report and PDF Table Convert. No accounts, no tracking — tools that do one thing well."
+    />
+    <meta property="og:image" content="https://iavian.com/og.png" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta
+      property="og:image:alt"
+      content="iavian — small, useful apps built to respect your time, with the Breaking News, The Report and PDF Table Convert app icons"
+    />
+    <meta property="og:locale" content="en_US" />
+
+    <!-- Twitter / X -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="iavian — Small, useful apps built to respect your time"
+    />
+    <meta
+      name="twitter:description"
+      content="Small, focused apps for news and productivity: Breaking News, The Report and PDF Table Convert. No accounts, no tracking — tools that do one thing well."
+    />
+    <meta name="twitter:image" content="https://iavian.com/og.png" />
+    <meta
+      name="twitter:image:alt"
+      content="iavian — small, useful apps built to respect your time, with the Breaking News, The Report and PDF Table Convert app icons"
+    />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://iavian.com/#org",
+            "name": "iavian",
+            "url": "https://iavian.com/",
+            "email": "apps@iavian.com",
+            "logo": "https://iavian.com/icon-512.png",
+            "sameAs": ["https://github.com/vjyanand"]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://iavian.com/#website",
+            "url": "https://iavian.com/",
+            "name": "iavian",
+            "description": "Small, focused apps for news and productivity.",
+            "inLanguage": "en",
+            "publisher": { "@id": "https://iavian.com/#org" }
+          },
+          {
+            "@type": "SoftwareApplication",
+            "name": "Breaking News",
+            "applicationCategory": "NewsApplication",
+            "operatingSystem": "iOS, Android, Web",
+            "url": "https://breaking.iavian.net",
+            "image": "https://iavian.com/icons/breaking-news.jpg",
+            "description": "Real-time global news, sports, finance and entertainment with breaking-news push alerts and hourly audio newscasts.",
+            "publisher": { "@id": "https://iavian.com/#org" },
+            "offers": {
+              "@type": "Offer",
+              "price": "0",
+              "priceCurrency": "USD"
+            }
+          },
+          {
+            "@type": "SoftwareApplication",
+            "name": "Conservative News — The Report",
+            "applicationCategory": "NewsApplication",
+            "operatingSystem": "iOS, Android, Web",
+            "url": "https://thereport.be",
+            "image": "https://iavian.com/icons/the-report.jpg",
+            "description": "A focused daily feed of conservative news, opinion and editorials with breaking-news alerts, bookmarks and an iOS Lock Screen widget.",
+            "publisher": { "@id": "https://iavian.com/#org" },
+            "offers": {
+              "@type": "Offer",
+              "price": "0",
+              "priceCurrency": "USD"
+            }
+          },
+          {
+            "@type": "SoftwareApplication",
+            "name": "PDF Table Convert",
+            "applicationCategory": "BusinessApplication",
+            "operatingSystem": "Web",
+            "url": "https://pdftableconvert.com/",
+            "image": "https://iavian.com/icons/pdf-table-convert.png",
+            "description": "Convert tables locked inside PDFs into clean Excel and CSV files, entirely on your own device.",
+            "publisher": { "@id": "https://iavian.com/#org" },
+            "offers": {
+              "@type": "Offer",
+              "price": "0",
+              "priceCurrency": "USD"
+            }
+          }
+        ]
+      }
+    </script>
   </head>
   <body>
     <div id="root"></div>
