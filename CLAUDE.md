@@ -26,9 +26,9 @@ There are no tests yet.
 
 ## Stack
 
-- **Vite 6** + **React 19** (JSX, no TypeScript — uses `jsconfig.json` with `@/* → src/*` path alias)
-- **Tailwind CSS 3** via PostCSS (`postcss.config.js`, `tailwind.config.js`) — Tailwind v3 was chosen so the `postcss.config.js` pipeline stays standard; if upgrading to v4, replace with `@tailwindcss/vite`
-- **ESLint 9** flat config (`eslint.config.js`) with `react`, `react-hooks`, `react-refresh`
+- **Vite 8** + **React 19** (JSX, no TypeScript — uses `jsconfig.json` with `@/* → src/*` path alias)
+- **Tailwind CSS 4** via `@tailwindcss/vite` (registered in `vite.config.js`) — there is no `postcss.config.js` or `tailwind.config.js`; theme and content sources are CSS-first, configured from `src/index.css` (`@import 'tailwindcss'`), and template files are auto-detected
+- **ESLint 9** flat config (`eslint.config.js`) with `react`, `react-hooks`, `react-refresh` — pinned to 9.x because `eslint-plugin-react` 7.37.5 still peers on `eslint@^9.7`; move to ESLint 10 once that plugin supports it
 
 ## Architecture
 
